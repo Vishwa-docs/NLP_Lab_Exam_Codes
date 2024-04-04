@@ -1,26 +1,107 @@
 # NLP Lab Exam
-NLP Lab Exam Codes
 
----
 You will be given 2 applications and you need to integrate it. 
     Eg : Sentence Compression and Language Generation, key word generation and machine translation
 Project will be evaluated along with the model lab.
 
-# Applications of NLP
+# Plan
+Krish Naik Course
+[One Shot Course](https://www.youtube.com/watch?v=ENLEjGozrio)
+
+Understand the steps and the codes in general
+    Why we are using what?
+Try the applications in lab exercises
+    See the lms, notion page
+    Take snippets from that
+Try other applications
+    Check standard datasets
+See achintya work for our application and learn transformers and models
+Review Krish Naik Course.md file and see if you covered everything
+
+
+---
+---
+---
+# Applications of NLP (Use Cases)
 - [ ] Spell Check
 - [ ] Sentiment Analysis
-- [ ] Text Sumarization
+- [ ] [Text Summarization](https://www.youtube.com/watch?v=XO97Uon83Os)
 - [ ] Offensive Language Identification
-- [ ] Named Entity Recognition
 - [ ] Keyword Extraction
 - [ ] Sentence Compression
 - [ ] CNN
-- [ ] Machine Translation
+- [ ] Machine Translation (NMT)
     - [ ] Variants of BERT to handle different languages
 - [ ] [Topic Extraction](https://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html)
+- [ ] Next word / sentence prediction
+- [ ] Spam Classification
+- [ ] [Sarcasm Detection (DIFFICULT)](https://github.com/Suji04/NormalizedNerd/blob/master/Introduction%20to%20NLP/Sarcasm%20is%20very%20easy%20to%20detect%20GloVe%2BLSTM.ipynb)
+- [ ] Text Classification
+- [ ] Topic Modelling
+
+## Basic Applications
+Are also used as steps in many applications
+- [ ] Named Entity Recognition (NER)
+- [ ] POS Tagging
+- [ ] Dependency Parsing (Markov Modelling)
+
+## Advanced
+1. Reccomendation Systems
+    1. Similar Sentence Identifcation (Cosing Similarity and Euclidean distance)
+1. Chatbot
+
+---
+---
+# Steps
+> Keep asking when you should do what, and what to use
+
+## Text Cleaning
+**Normalization**: This process involves converting all text to the same case (upper or lower), removing extra spaces, and so on.
+This is the first step where we remove unnecessary and redundant data. 
+
++ This includes:
+    - Removing HTML tags
+    - Removing punctuation
+    - Removing numbers or digits
+    - Removing special characters
+    - Removing extra whitespaces
+    - Removing stop words: Stop words are common words that do not contribute much to the content or meaning of a document (e.g., "the", "is", "in", "and").
+
+## Tokenization
++ Converting Sentence into Words
+
+## Stop Words Removal
++ Remove the unnecessary words that do not add any meaning to the sentence
++ usually repeated in a sentence
++ "not" can play an important role, so you can create your own list
+
+## Stemming and Lemmatization
++ Text normalization techniques
++ **Stemming** - Removes the last few characters to get the root word. Fast but word *may not have any meaning*
++ **Lemmatization** - takes into consideration the morphological analysis of the words to get the root words *(Preserves the root)*
 
 
-# Steps in NLP
-- [ ] Preprocessing (Create a Pipeline for all text files)
-- [ ] Embedding
-- [ ] Word2Vec
+Until here is pre processing
+---
+## Converting Words to Vectors (Word Embedding/Text Vectors)
+1. One Hot Encoding
+1. Bag of Words
+1. TF-IDF
+1. **Deep Learning Techniques** - Word2Vec, GloVe, FastText
++ N-Grams, CBOW **(SEE IF YOU MISSED ANYTHING ELSE)**
+
+## Model Building
+1. **Text to Sequence Conversion**: This is the process of converting text data into sequence of integers or into vector form.
+1. **Padding**: Padding is performed after the text to sequence conversion. It is used to ensure that all sequences in a list have the same length.
+1. **Model Building** :
+    + RNN, LSTM, GRU
+    + Transformer and Attention Models
+    + Bidirectional LSTM, Encoders
+1. **Model Evaluation**: What metrics for which application?
+
+## Advanced Models (Pretrained)
+They take care of embeddings and stuff by themselves
+BERT, RoBERTa, DistilBERT
+
+---
+---
