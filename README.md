@@ -7,20 +7,31 @@ Project will be evaluated along with the model lab.
 
 # Study Plans
 1. Try the applications in lab exercises
-    + Under Lab Applications Folder
+    + Try by yourself, Cover everything in the pdf file, see the others codes
     + Answers in 
         - Notion Page (Ex 7 and 8)
         - Others solutions Folder
     + Take snippets from that, learn the flow
-    + Add the fllow to readme
+    + Add the flow to readme
     + Other Links
         - [Full Preprocessing Pipeline](https://www.kaggle.com/code/balatmak/text-preprocessing-steps-and-universal-pipeline)
         - [Cleaning and Preprocessing](https://www.kaggle.com/code/colearninglounge/nlp-data-preprocessing-and-cleaning)
+1. Tracking
+    1. 
+    3. 
+    4. 
+    6. 
+    7. 
+    8. 
+    9. 
+1. See the online codes (Other approaches, how they did for Lab Applications)
+    - Like for 5 anol, some easier way to do it
 1. Understand the steps and the codes in general
     + Why we are using what?
 1. List other NLP problems / Applications **(Ask Gemini to generate)** and solve
     + See Readme File
     + Check standard datasets
+    + nlp applications without deep learning list (Ask chatgpt)
 1. Try the sample Questions (Time yourself)
 1. See achintya work for our application and learn transformers and models
 1. See the sheet Rhea sent
@@ -28,9 +39,16 @@ Project will be evaluated along with the model lab.
 ---
 ---
 ---
+# References
+- [Git Repo 1](https://github.com/Mr-Appu)
+- [Repo 2](https://github.com/Aniruth1011)
+
 # Applications of NLP (Use Cases)
 - [ ] Spell Check
-- [ ] Sentiment Analysis - IMDB Movie Dataset
+- [ ] Text Classification
+    - [x] Sentiment Analysis - IMDB Movie Dataset
+    - [ ] Spam Classification
+    - [ ] Auto Tagger
 - [ ] [Text Summarization](https://www.youtube.com/watch?v=XO97Uon83Os)
 - [ ] Fake News Detection
 - [ ] Offensive Language Identification
@@ -41,15 +59,14 @@ Project will be evaluated along with the model lab.
     - [ ] Variants of BERT to handle different languages
 - [ ] [Topic Extraction](https://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html)
 - [ ] Next word / sentence prediction
-- [ ] Spam Classification
 - [ ] [Sarcasm Detection (DIFFICULT)](https://github.com/Suji04/NormalizedNerd/blob/master/Introduction%20to%20NLP/Sarcasm%20is%20very%20easy%20to%20detect%20GloVe%2BLSTM.ipynb)
-- [ ] Text Classification
 - [ ] Topic Modelling
 - [ ] Sequence Modelling
+- [ ] Parsing Tree
 
 ## Basic Applications
 Are also used as steps in many applications
-- [ ] Named Entity Recognition (NER)
+- [x] Named Entity Recognition (NER)
 - [ ] POS Tagging
 - [ ] Dependency Parsing (Markov Modelling)
 - [ ] QnA System
@@ -61,7 +78,7 @@ Are also used as steps in many applications
 
 ---
 ---
-# Steps
+# Steps (Pipeline for Approaching Problems)
 > Keep asking when you should do what, and what to use
 
 ## Text Cleaning

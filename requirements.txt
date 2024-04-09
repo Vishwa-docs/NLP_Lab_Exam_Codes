@@ -11,3 +11,5 @@ jsonlines
 matplotlib
 seaborn
 wordcloud
+textblob
+textdistance
