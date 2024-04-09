@@ -52,17 +52,17 @@ Project will be evaluated along with the model lab.
 - [ ] [Text Summarization](https://www.youtube.com/watch?v=XO97Uon83Os)
 - [ ] Fake News Detection
 - [ ] Offensive Language Identification
-- [ ] Keyword Extraction
+- [x] Keyword Extraction
 - [ ] Sentence Compression
 - [ ] CNN
 - [ ] Machine Translation (NMT)
     - [ ] Variants of BERT to handle different languages
 - [ ] [Topic Extraction](https://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html)
 - [ ] Next word / sentence prediction
+    - [ ] Parsing Tree (Given tokens and stuff, how to do)
 - [ ] [Sarcasm Detection (DIFFICULT)](https://github.com/Suji04/NormalizedNerd/blob/master/Introduction%20to%20NLP/Sarcasm%20is%20very%20easy%20to%20detect%20GloVe%2BLSTM.ipynb)
 - [ ] Topic Modelling
 - [ ] Sequence Modelling
-- [ ] Parsing Tree
 
 ## Basic Applications
 Are also used as steps in many applications
