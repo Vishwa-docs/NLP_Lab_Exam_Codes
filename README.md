@@ -13,6 +13,9 @@ Project will be evaluated along with the model lab.
         - Others solutions Folder
     + Take snippets from that, learn the flow
     + Add the fllow to readme
+    + Other Links
+        - [Full Preprocessing Pipeline](https://www.kaggle.com/code/balatmak/text-preprocessing-steps-and-universal-pipeline)
+        - [Cleaning and Preprocessing](https://www.kaggle.com/code/colearninglounge/nlp-data-preprocessing-and-cleaning)
 1. Understand the steps and the codes in general
     + Why we are using what?
 1. List other NLP problems / Applications **(Ask Gemini to generate)** and solve
@@ -20,6 +23,7 @@ Project will be evaluated along with the model lab.
     + Check standard datasets
 1. Try the sample Questions (Time yourself)
 1. See achintya work for our application and learn transformers and models
+1. See the sheet Rhea sent
 
 ---
 ---
@@ -28,6 +32,7 @@ Project will be evaluated along with the model lab.
 - [ ] Spell Check
 - [ ] Sentiment Analysis - IMDB Movie Dataset
 - [ ] [Text Summarization](https://www.youtube.com/watch?v=XO97Uon83Os)
+- [ ] Fake News Detection
 - [ ] Offensive Language Identification
 - [ ] Keyword Extraction
 - [ ] Sentence Compression
@@ -40,12 +45,14 @@ Project will be evaluated along with the model lab.
 - [ ] [Sarcasm Detection (DIFFICULT)](https://github.com/Suji04/NormalizedNerd/blob/master/Introduction%20to%20NLP/Sarcasm%20is%20very%20easy%20to%20detect%20GloVe%2BLSTM.ipynb)
 - [ ] Text Classification
 - [ ] Topic Modelling
+- [ ] Sequence Modelling
 
 ## Basic Applications
 Are also used as steps in many applications
 - [ ] Named Entity Recognition (NER)
 - [ ] POS Tagging
 - [ ] Dependency Parsing (Markov Modelling)
+- [ ] QnA System
 
 ## Advanced
 1. Reccomendation Systems
@@ -101,6 +108,7 @@ Until here is pre processing
     + Bidirectional LSTM
     + Encoder and decoder architecture
 1. **Model Evaluation**: What metrics for which application?
+    + [BLEU Score](https://www.youtube.com/watch?v=DejHQYAGb7Q)
 
 ## Advanced Models (Pretrained)
 They take care of embeddings and stuff by themselves
