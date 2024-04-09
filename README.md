@@ -1,30 +1,32 @@
 # NLP Lab Exam
-
+Model and the function will be given and input and output will be given. You need to develop a model and get an output for the input, with justification on how it works and hyperparameters
 You will be given 2 applications and you need to integrate it. 
-    Eg : Sentence Compression and Language Generation, key word generation and machine translation
+    Eg : Sentence Compression and Language Generation, key word generation and machine translation, sumarization and compression etc
 Project will be evaluated along with the model lab.
 
-# Plan
-Krish Naik Course
-[One Shot Course](https://www.youtube.com/watch?v=ENLEjGozrio)
 
-Understand the steps and the codes in general
-    Why we are using what?
-Try the applications in lab exercises
-    See the lms, notion page
-    Take snippets from that
-Try other applications
-    Check standard datasets
-See achintya work for our application and learn transformers and models
-Review Krish Naik Course.md file and see if you covered everything
-
+# Study Plans
+1. Try the applications in lab exercises
+    + Under Lab Applications Folder
+    + Answers in 
+        - Notion Page (Ex 7 and 8)
+        - Others solutions Folder
+    + Take snippets from that, learn the flow
+    + Add the fllow to readme
+1. Understand the steps and the codes in general
+    + Why we are using what?
+1. List other NLP problems / Applications **(Ask Gemini to generate)** and solve
+    + See Readme File
+    + Check standard datasets
+1. Try the sample Questions (Time yourself)
+1. See achintya work for our application and learn transformers and models
 
 ---
 ---
 ---
 # Applications of NLP (Use Cases)
 - [ ] Spell Check
-- [ ] Sentiment Analysis
+- [ ] Sentiment Analysis - IMDB Movie Dataset
 - [ ] [Text Summarization](https://www.youtube.com/watch?v=XO97Uon83Os)
 - [ ] Offensive Language Identification
 - [ ] Keyword Extraction
@@ -96,7 +98,8 @@ Until here is pre processing
 1. **Model Building** :
     + RNN, LSTM, GRU
     + Transformer and Attention Models
-    + Bidirectional LSTM, Encoders
+    + Bidirectional LSTM
+    + Encoder and decoder architecture
 1. **Model Evaluation**: What metrics for which application?
 
 ## Advanced Models (Pretrained)
