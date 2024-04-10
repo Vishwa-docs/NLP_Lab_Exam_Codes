@@ -20,9 +20,6 @@ Project will be evaluated along with the model lab.
 1. Tracking
     1. 
     3. 
-    4. 
-    8. 
-    9. 
 1. See the online codes (Other approaches, how they did for Lab Applications)
     - 5 (Any easier way?)
     - 7 (Better Model + See notion page)
