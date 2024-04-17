@@ -9,6 +9,7 @@
     + Go through similar stuff to get an idea
     + [TextaCy](https://textacy.readthedocs.io/en/latest/quickstart.html)
     + [FuzzyWuzzy](https://www.analyticsvidhya.com/blog/2021/06/fuzzywuzzy-python-library-interesting-tool-for-nlp-and-text-analytics/)
+    + Ask on LMS
 1. 30 Mins : Get the dataset
     + Search on kaggle and github
 
