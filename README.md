@@ -13,6 +13,8 @@
 1. 30 Mins : Get the dataset
     + Search on kaggle and github
 
+difference between lstm and encoder, encoder decoder architecture, lstm, bert, attention 
+
 # To Do
 - lol, just overexplain stuff, and act like u know ur shit
 - like the method was not simply use a model, it was a workaround ryt
