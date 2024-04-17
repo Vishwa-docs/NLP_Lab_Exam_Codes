@@ -1,3 +1,33 @@
+---
+---
+# Steps
+1. 30 mins : Create Pipeline
+    + See this file
+    + Search online (Kaggle and Github)
+        + Muthu, Rahul, Ask loh and achu
+    + See Gemini
+    + Go through similar stuff to get an idea
+    + [TextaCy](https://textacy.readthedocs.io/en/latest/quickstart.html)
+    + [FuzzyWuzzy](https://www.analyticsvidhya.com/blog/2021/06/fuzzywuzzy-python-library-interesting-tool-for-nlp-and-text-analytics/)
+1. 30 Mins : Get the dataset
+    + Search on kaggle and github
+
+# To Do
+- lol, just overexplain stuff, and act like u know ur shit
+- like the method was not simply use a model, it was a workaround ryt
+- Fine tuning models what parameters (Ask around and see which parameters to tune)
+    - Where did you apply what, what did you fine tune
+    - Something like number of layers, input and output side, learning rate etc.
+- Models
+    - KeyBERT and LSTM
+    - Encoder Decoders
+
+## Theory
+
+- Recollect how the gates and connections work (For RNN, LSTMs etc.)
+
+---
+---
 # NLP Lab Exam
 Model and the function will be given and input and output will be given. You need to develop a model and get an output for the input, with justification on how it works and hyperparameters
 You will be given 2 applications and you need to integrate it. 
@@ -99,6 +129,8 @@ BERT, RoBERTa, DistilBERT
 - [Git Repo 1](https://github.com/Mr-Appu)
 - [Repo 2](https://github.com/Aniruth1011)
 - [Muthu](https://github.com/MuthuPalaniappan925/NLP-Dump)
+- [Achu](https://github.com/Achintya-Lakshmanan)
+- [Loh](https://github.com/KLohithSaradhi)
 
 # Applications of NLP (Use Cases)
 - [ ] Spell Check
